@@ -1,13 +1,70 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.fullHeight {
+  height: 100%;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.flexCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Navbar */
+#pageNavbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 25px;
+}
+
+/* Home */
+.homeBackground {
+  background-image: url("./images/croppedM82.jpg");
+}
+
+.backgroundShift {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+#header {
+  color: white;
+}
+
+#headerName {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+#headerDivider {
+  background: white;
+  width: 87%;
+}
+
+#headerTitle {
+  margin-top: 10px;
+  margin-bottom: 70px;
+  font-size: 30px;
 }

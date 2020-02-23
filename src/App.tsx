@@ -4,16 +4,16 @@ import { Blog } from './components/Blog';
 import { Home } from './components/Home';
 import { Navbar } from './components/Navbar';
 import { NotFound } from './components/NotFound';
-import { Papers } from './components/Papers';
+import { About } from './components/About';
 
 export const App = () => {
   return (
-    <div >
+    <div>
       <Navbar />
       <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/blog" component={Blog} />
-        <Route path="/papers" component={Papers} />
+        <Route path="/papers" component={About} />
         <Route component={NotFound} />
       </Switch>
     </div>
