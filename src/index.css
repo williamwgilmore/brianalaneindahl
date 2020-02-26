@@ -3,7 +3,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -38,6 +38,11 @@ code {
   font-size: 25px;
 }
 
+.nav-item:hover {
+  text-decoration: none;
+  color: yellow;
+}
+
 /* Home */
 .homeBackground {
   background-image: url("./images/croppedM82.jpg");
@@ -54,17 +59,32 @@ code {
 }
 
 #headerName {
-  font-size: 50px;
+  font-size: 65px;
   margin-bottom: 10px;
 }
 
 #headerDivider {
   background: white;
-  width: 87%;
+  width: 60%;
 }
 
 #headerTitle {
   margin-top: 10px;
   margin-bottom: 70px;
-  font-size: 30px;
+  font-size: 35px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+.nav-item a {
+  color: white;
+}
+
+.nav-item a:hover {
+  color: yellow;
+  text-decoration: none;
 }
