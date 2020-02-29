@@ -1,6 +1,6 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import { Blog } from "./components/Blog";
+import { Papers } from "./components/Papers";
 import { Home } from "./components/Home";
 import { Navbar } from "./components/Navbar";
 import { NotFound } from "./components/NotFound";
@@ -12,8 +12,8 @@ export const App = () => {
       <Navbar />
       <Switch>
         <Route path="/" component={Home} exact />
-        <Route path="/blog" component={Blog} />
-        <Route path="/papers" component={About} />
+        <Route path="/about" component={About} />
+        <Route path="/papers" component={Papers} />
         <Route component={NotFound} />
       </Switch>
     </div>

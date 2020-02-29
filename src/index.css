@@ -35,12 +35,13 @@ code {
   cursor: pointer;
   display: inline-block;
   padding: 10px 20px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .nav-item:hover {
   text-decoration: none;
-  color: yellow;
+  color: white;
+  transform: scale(1.2);
 }
 
 /* Home */
@@ -85,6 +86,5 @@ code {
 }
 
 .nav-item a:hover {
-  color: yellow;
   text-decoration: none;
 }
